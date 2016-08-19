@@ -1,0 +1,6 @@
+framework module FOXSDK {
+  umbrella header "FOXSDK.h"
+
+  export *
+  module * { export * }
+}
