@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <FOXSDK/FOXSDK.h>
 
 @interface ViewController : UIViewController
 
