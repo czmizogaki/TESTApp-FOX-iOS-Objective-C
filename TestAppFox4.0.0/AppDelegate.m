@@ -17,9 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    [[FOXConfig configWithAppId:4879
-                           salt:@"42b199d17f20bffa15d242d37cf9650d9558ed78"
-                         appKey:@"20131c689b5617940ac82919356bab22cdabcf81"]activate];
+    [[FOXConfig configWithAppId:74237413297489211
+                           salt:@""
+                         appKey:@""]activate];
 
     FOXTrackOption* option = [FOXTrackOption new];
     option.redirectURL = @"myapp://top"; // URLスキーム
